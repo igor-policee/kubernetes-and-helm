@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: short-app
   labels:
-    components: frontend
+    components: short-app-frontend
 spec:
   containers:
   - name: short-app
@@ -13,4 +13,4 @@ spec:
     resources:
       limits:
         memory: "128Mi"
-        cpu: "500m"
+        cpu: "100m"
