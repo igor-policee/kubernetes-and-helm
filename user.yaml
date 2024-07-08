@@ -1,0 +1,38 @@
+admin: true
+name: "Durian Gray"
+age: 30
+location:
+  country: Singapore
+  street: "449 Ang Mo Kio Avenue 10"
+  city: "Singapore"
+  phone_number: "65 6222 7383"
+  zip_code: "560449"
+  country_calling_code: "+65"
+skills:
+  - |
+    Data analysis:
+    This skill involves examining, cleaning, and transforming data to discover useful information, 
+    suggest conclusions, and support decision-making.
+  - |
+    Data engineering: 
+    This skill focuses on designing and constructing robust data pipelines and 
+    architectures that enable efficient data collection, storage, processing, 
+    and access for analytical and operational use.
+  - |
+    Data mining:
+    Data mining entails exploring and analyzing large data sets to uncover hidden patterns, 
+    unknown correlations, and other valuable insights through various statistical and 
+    machine learning techniques.
+  - |
+    Data visualization:
+    This involves the creation and study of visual representations of data, 
+    such as charts, graphs, and dashboards, to communicate information clearly and effectively and 
+    enable stakeholders to grasp difficult concepts or identify new patterns.
+pets:
+  - french bulldog
+  - siamese cat
+  - sloth
+hobbies:
+  - skiing
+  - playing guitar
+  - vocal lessons
