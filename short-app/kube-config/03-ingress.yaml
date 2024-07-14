@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: myingress
+  name: short-app-ingress
   annotations:
     nginx.ingress.kubernetes.io/add-base-url: "true"
 spec:
