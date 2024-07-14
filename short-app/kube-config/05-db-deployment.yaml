@@ -28,3 +28,11 @@ spec:
             limits:
               memory: "500Mi"
               cpu: "300m"
+          volumeMounts:
+            - mountPath: "/var/lib/postgresql/data"
+              subPath: "postgress"
+              name: short-app-db-data
+      volumes:
+        - name: short-app-db-data
+          persistentVolumeClaim:
+            claimName: short-app-db-pvc
